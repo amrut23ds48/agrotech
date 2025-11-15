@@ -9,6 +9,7 @@ import { useState } from "react";
 import { ArrowLeft, Sprout, Satellite, Brain, Package, Shield, CreditCard, Handshake } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import carbonCreditsImage from "@/assets/carbonCredits.jpg"; 
 
 interface ServiceCard {
   id: string;
@@ -177,6 +178,14 @@ const WhatWeOffer = () => {
                 These practices make soil healthier and increase soil organic
                 carbon. More carbon in soil = more credits = more income.
               </p>
+            </section>
+
+            <section>
+              <img
+                src={carbonCreditsImage}
+                alt="Visual explanation of how carbon credits work for farmers"
+                className="w-full h-auto rounded-lg my-4"
+              />
             </section>
 
             <section>
