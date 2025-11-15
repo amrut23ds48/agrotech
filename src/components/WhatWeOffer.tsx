@@ -135,54 +135,130 @@ const WhatWeOffer = () => {
         </SheetTrigger>
         <SheetContent className="sm:max-w-2xl overflow-y-auto">
           <SheetHeader>
-            <SheetTitle className="text-3xl font-bold mb-4">Carbon Credits</SheetTitle>
+            <SheetTitle className="text-3xl font-bold mb-4">
+              Carbon Credits Made Simple
+            </SheetTitle>
           </SheetHeader>
-          <div className="prose prose-lg max-w-none text-foreground">
-            <h2 className="text-2xl font-semibold text-foreground mb-4">What Are Carbon Credits?</h2>
-            <p className="text-muted-foreground mb-6">
-              Carbon credits are tradable certificates that represent the removal or reduction of one metric ton of carbon dioxide (CO2) 
-              or equivalent greenhouse gases from the atmosphere. Through sustainable agricultural practices, farmers can generate these 
-              credits and participate in global climate action while earning additional income.
-            </p>
+          {/* This 'prose' class adds nice article styling */}
+          <div className="prose prose-lg max-w-none text-foreground space-y-6">
+            <section>
+              <h2 className="text-2xl font-semibold text-primary mb-3">
+                What is a Carbon Credit?
+              </h2>
+              <p className="text-muted-foreground leading-relaxed">
+                A carbon credit is a reward given when your farm helps the earth
+                by storing carbon in the soil. Companies buy these credits to
+                balance their pollution. You earn money for keeping your soil
+                healthy.
+              </p>
+            </section>
 
-            <h2 className="text-2xl font-semibold text-foreground mb-4">How It Works</h2>
-            <p className="text-muted-foreground mb-6">
-              Our platform helps farmers transition to regenerative agricultural practices such as no-till farming, cover cropping, 
-              and efficient fertilizer use. These practices sequester carbon in the soil, and we verify and quantify this carbon 
-              capture using satellite monitoring and AI technology. The verified carbon reduction is then converted into tradable 
-              carbon credits.
-            </p>
+            <section>
+              <h2 className="text-2xl font-semibold text-primary mb-3">
+                How Farming Creates Carbon Credits
+              </h2>
+              <p className="text-muted-foreground leading-relaxed">
+                You can earn carbon credits when your farm captures and stores
+                carbon. This happens when you use regenerative farming and
+                natural, soil-friendly methods.
+              </p>
+              <p className="text-muted-foreground leading-relaxed mt-4">
+                Regenerative farming includes:
+              </p>
+              <ul className="list-disc pl-6 text-muted-foreground space-y-1 mt-2">
+                <li>Using less chemicals</li>
+                <li>Adding organic matter like compost</li>
+                <li>Keeping the soil covered</li>
+                <li>Growing different crops</li>
+                <li>Reducing tilling</li>
+                <li>Planting trees or agroforestry</li>
+              </ul>
+              <p className="text-muted-foreground leading-relaxed mt-4">
+                These practices make soil healthier and increase soil organic
+                carbon. More carbon in soil = more credits = more income.
+              </p>
+            </section>
 
-            <h2 className="text-2xl font-semibold text-foreground mb-4">Benefits for Farmers</h2>
-            <ul className="list-disc pl-6 text-muted-foreground space-y-2 mb-6">
-              <li>Generate additional revenue streams from your existing farmland</li>
-              <li>Improve soil health and long-term farm productivity</li>
-              <li>Access premium markets that value sustainable practices</li>
-              <li>Reduce input costs through optimized resource usage</li>
-              <li>Contribute to global climate change mitigation efforts</li>
-            </ul>
+            <section>
+              <h2 className="text-2xl font-semibold text-primary mb-3">
+                How Rupiya.app Measures Carbon
+              </h2>
+              <p className="text-muted-foreground leading-relaxed">
+                Rupiya.app checks your farm's carbon in two ways:
+              </p>
+              <ul className="list-disc pl-6 text-muted-foreground space-y-1 mt-2">
+                <li>Satellite images</li>
+                <li>On-ground soil tests</li>
+              </ul>
+              <p className="text-muted-foreground leading-relaxed mt-4">
+                We track how much carbon your soil gains every year. Only a
+                real increase in carbon gives you money. This keeps
+                everything honest and transparent.
+              </p>
+            </section>
 
-            <h2 className="text-2xl font-semibold text-foreground mb-4">Our Verification Process</h2>
-            <p className="text-muted-foreground mb-6">
-              We use advanced satellite imagery, IoT sensors, and AI algorithms to continuously monitor and verify carbon sequestration 
-              on your farm. Our methodology is certified by international carbon standards, ensuring transparency and credibility in 
-              the carbon market. Farmers receive regular reports on their carbon capture performance and credit generation.
-            </p>
+            <section>
+              <h2 className="text-2xl font-semibold text-primary mb-3">
+                How Farmers Earn Money
+              </h2>
+              <p className="text-muted-foreground leading-relaxed">
+                For every 1 tonne of CO2 stored in your soil, you earn extra
+                income.
+              </p>
+              <p className="text-muted-foreground leading-relaxed mt-4">
+                You get:
+              </p>
+              <ul className="list-disc pl-6 text-muted-foreground space-y-1 mt-2">
+                <li>80% of the amount in the same year</li>
+                <li>
+                  20% kept safely as a reserve, paid after 5 years (This
+                  protects you even if your carbon drops someday)
+                </li>
+              </ul>
+              <p className="text-muted-foreground leading-relaxed mt-4">
+                Farmers usually earn ₹2,000-₹5,000 per acre per year,
+                depending on practices and carbon growth.
+              </p>
+            </section>
 
-            <h2 className="text-2xl font-semibold text-foreground mb-4">Market Opportunities</h2>
-            <p className="text-muted-foreground mb-6">
-              With increasing global demand for carbon offsets from corporations committed to net-zero targets, carbon credits 
-              generated through agriculture are becoming increasingly valuable. We connect farmers directly with buyers, ensuring 
-              fair pricing and transparent transactions. Our platform handles all the complexity of carbon credit registration, 
-              verification, and trading.
-            </p>
+            <section>
+              <h2 className="text-2xl font-semibold text-primary mb-3">
+                Rupiya's Global Partnership
+              </h2>
+              <p className="text-muted-foreground leading-relaxed">
+                Rupiya.app works with Carboneg (Europe) - a trusted global
+                carbon program. This ensures high standards, proper
+                verification, and good returns for farmers.
+              </p>
+            </section>
 
-            <h2 className="text-2xl font-semibold text-foreground mb-4">Getting Started</h2>
-            <p className="text-muted-foreground">
-              Join our carbon credit program by registering your farm and implementing recommended sustainable practices. Our 
-              agronomy experts will guide you through the transition, and you can start generating carbon credits within the 
-              first growing season. No upfront costs - we handle the verification and certification process.
-            </p>
+            <section>
+              <h2 className="text-2xl font-semibold text-primary mb-3">
+                Why This Benefits Farmers
+              </h2>
+              <ul className="list-disc pl-6 text-muted-foreground space-y-1">
+                <li>Extra income without changing your main crop</li>
+                <li>Healthier soil and better yield over time</li>
+                <li>Less money spent on fertilizers</li>
+                <li>More moisture in soil</li>
+                <li>Long-term support from Rupiya experts</li>
+                <li>Easy onboarding and monitoring</li>
+              </ul>
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-semibold text-primary mb-3">
+                Our Goal
+              </h2>
+              <p className="text-muted-foreground leading-relaxed">
+                Rupiya.app aims to bring 50,000+ farmers and 5 lakh hectares
+                under regenerative farming and carbon credit income in the
+                next 3 years.
+              </p>
+              <p className="text-muted-foreground leading-relaxed mt-4 font-medium">
+                More farmers → more income → healthier soil → better climate.
+              </p>
+            </section>
           </div>
         </SheetContent>
       </Sheet>
