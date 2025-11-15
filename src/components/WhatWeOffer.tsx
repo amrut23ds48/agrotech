@@ -28,11 +28,11 @@ import product4 from "@/assets/products/CombishieldShakti.png";
 import product5 from "@/assets/products/EARTHWISE.png";
 
 const productImages = [
-  product1,
-  product2,
-  product3,
-  product4,
-  product5,
+  { src: product1, name: "AgroShakti" },
+  { src: product2, name: "BeauvShakti" },
+  { src: product3, name: "CeralShakti" },
+  { src: product4, name: "CombishieldShakti" },
+  { src: product5, name: "EARTHWISE" },
 ];
 // --- DATA FOR SERVICES (ICONS) ---
 // We keep icons and IDs separate from translatable text.
@@ -145,8 +145,8 @@ const translations = {
         `
       },
       "inputs": {
-        title: "35 residue-free inputs",
-        content: "Access to 35+ certified organic and residue-free agricultural inputs including fertilizers, pesticides, and growth enhancers. All products are rigorously tested and certified to meet international organic standards, ensuring safe and sustainable farming practices.",
+        title: "25 residue-free inputs",
+        content: "Access to 25+ certified organic and residue-free agricultural inputs including fertilizers, pesticides, and growth enhancers. All products are rigorously tested and certified to meet international organic standards, ensuring safe and sustainable farming practices.",
       },
       "insurance": {
         title: "Parametric insurance",
@@ -582,20 +582,38 @@ const WhatWeOffer = () => {
               </h2>
             </div>
             {selectedCard === "inputs" ? (
-              // IF 'inputs' is selected, show this grid
-              <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-4 mt-4">
-                {productImages.map((src, index) => (
+              // IF 'inputs' is selected, show this list
+              <div className="flex flex-col gap-4 mt-4">
+                
+                {/* Make sure your map uses '(product, index)' 
+                  and the img uses 'product.src'
+                */}
+                {productImages.map((product, index) => (
                   <div 
                     key={index} 
-                    className="aspect-square rounded-lg overflow-hidden shadow-md bg-gray-100"
+                    // MODIFIED: Switched to flex-col to stack image and name
+                    className="flex flex-col items-center gap-4 p-4 py-6 border rounded-lg shadow-sm bg-background"
                   >
-                    <img
-                      src={src}
-                      alt={`Product ${index + 1}`}
-                      className="w-full h-full object-cover"
-                    />
+                    {/* MODIFIED: 
+                      - Container is 80% width (w-4/5) and centered (mx-auto)
+                      - Image fills this container, 'h-auto' respects aspect ratio
+                      - 'object-contain' ensures the entire image is visible
+                    */}
+                    <div className="w-4/5 mx-auto">
+                      <img
+                        src={product.src}
+                        alt={product.name}
+                        className="w-full h-auto object-contain"
+                      />
+                    </div>
+                    
+                    {/* MODIFIED: Text is centered and larger */}
+                    <span className="font-semibold text-xl sm:text-2xl text-foreground mt-2">
+                      {product.name}
+                    </span>
                   </div>
                 ))}
+              
               </div>
             ) : (
               // ELSE, show the normal text content
