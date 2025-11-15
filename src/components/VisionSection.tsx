@@ -373,7 +373,11 @@ const VisionSection = () => {
             agriculture
           </p>
         </div>
-
+          <img
+          src="./src/assets/financial.jpg" // This path is from your original file
+          alt="Our vision for a comprehensive financial ecosystem"
+          className="w-full md:w-4/5 h-auto mx-auto rounded-lg shadow-lg mb-16"
+        />
         <div className="space-y-8 max-w-5xl mx-auto">
           {visionItems.map((item, index) => (
             <Card

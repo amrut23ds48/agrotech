@@ -104,15 +104,7 @@ const Navigation = () => {
           {/* Right Side - Theme Toggle & Language Selector */}
           <div className="hidden lg:flex items-center gap-4">
             <ThemeToggle />
-            <Select defaultValue="en">
-              <SelectTrigger className="w-32 border-border bg-card">
-                <SelectValue placeholder="Language" />
-              </SelectTrigger>
-              <SelectContent className="bg-card border-border">
-                <SelectItem value="en">English</SelectItem>
-                <SelectItem value="hi">हिंदी</SelectItem>
-              </SelectContent>
-            </Select>
+            
           </div>
 
           {/* Mobile Menu Button */}
@@ -174,7 +166,7 @@ const Navigation = () => {
               About Us
             </button>
 
-            
+          
           </div>
         )}
       </div>
