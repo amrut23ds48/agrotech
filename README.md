@@ -54,20 +54,16 @@ Each audience sees only content relevant to them.
 
 ## ✔️ Features Completed
 
-* Audience-based content display
-* Finance section (Rupiya ecosystem)
+* Audience-based content display(Farmer, FPO, Investor, Buyer)
+* detailed and clear section about carbon credit system
+* Finance section (Rupiya ecosystem of recharge, gold, travel, insurance, credit)
 * Solutions: Satellite soil testing & Buy-back
+* Explained residue free farming in different sections
+* Added images to improve visual understanding
 * Click-to-expand cards with detailed info
 * Clean structured content following guidelines
-
----
-
-## 🛠️ Remaining Work
-
-1. Complete remaining solution sections
-2. Add **Hindi + Marathi + English** language toggle
-3. UI polishing (animations, visuals, diagrams)
-4. Final screen polishing + responsiveness
+* option to toggle between hindi and english
+* light and dark mode
 
 ---
 
