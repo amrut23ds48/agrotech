@@ -60,6 +60,11 @@ const translations = {
                     <li class="flex items-start gap-3"><span class="font-bold text-green-600 text-xl">✔</span><span>Get paid <strong class="text-foreground">80% this year</strong> and 20% after 5 years (as a safety reserve).</span></li>
                     <li class="flex items-start gap-3"><span class="font-bold text-green-600 text-xl">✔</span><span>You farm, we handle the global carbon market!</span></li>
                 </ul>
+                <img
+                  src="./src/assets/farmers.jpg" // This path is from your original file
+                  alt="Our vision for a comprehensive financial ecosystem"
+                  className="w-full md:w-4/5 h-auto mx-auto rounded-lg shadow-lg mb-16"
+                />
                 <p class="mt-4 text-center font-bold text-xl text-primary bg-primary/10 p-3 rounded-lg">Healthy Soil = More Income!</p>
             </div>
         
@@ -192,6 +197,11 @@ const translations = {
                     <li class="flex items-start gap-3"><span class="font-bold text-green-600 text-xl">✔</span><span><strong class="text-foreground">इस वर्ष 80%</strong> और 5 वर्षों के बाद 20% (सुरक्षा रिजर्व के रूप में) भुगतान प्राप्त करें।</span></li>
                     <li class="flex items-start gap-3"><span class="font-bold text-green-600 text-xl">✔</span><span>आप खेती करें, हम वैश्विक कार्बन बाजार को संभालते हैं!</span></li>
                 </ul>
+                <img
+                  src="./src/assets/farmers.jpg" // This path is from your original file
+                  alt="Our vision for a comprehensive financial ecosystem"
+                  className="w-full md:w-4/5 h-auto mx-auto rounded-lg shadow-lg mb-16"
+                />
                 <p class="mt-4 text-center font-bold text-xl text-primary bg-primary/10 p-3 rounded-lg">स्वस्थ मिट्टी = अधिक आय!</p>
             </div>
         
