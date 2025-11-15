@@ -174,17 +174,7 @@ const Navigation = () => {
               About Us
             </button>
 
-            <div className="px-4 pt-4 border-t border-border">
-              <Select defaultValue="en">
-                <SelectTrigger className="w-full border-border bg-card">
-                  <SelectValue placeholder="Language" />
-                </SelectTrigger>
-                <SelectContent className="bg-card border-border">
-                  <SelectItem value="en">English</SelectItem>
-                  <SelectItem value="hi">हिंदी</SelectItem>
-                </SelectContent>
-              </Select>
-            </div>
+            
           </div>
         )}
       </div>
