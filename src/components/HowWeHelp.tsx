@@ -8,7 +8,10 @@ import {
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-
+import farmers from "@/assets/farmers.jpg"; 
+import fpo from "@/assets/fpo.jpg"; 
+import institutions from "@/assets/institutions.jpg"; 
+import investors from "@/assets/investors.jpg"; 
 // --- ALL TRANSLATABLE TEXT ---
 const translations = {
   en: {
@@ -61,7 +64,7 @@ const translations = {
                     <li class="flex items-start gap-3"><span class="font-bold text-green-600 text-xl">✔</span><span>You farm, we handle the global carbon market!</span></li>
                 </ul>
                 <img
-                  src="./src/assets/farmers.jpg" 
+                  src={farmers}
                   alt="FPO सदस्य Rupiya.app विशेषज्ञों के साथ सहयोग कर रहे हैं"
                   class="w-full md:w-4/5 h-auto mx-auto rounded-lg shadow-lg my-8"
                 />
@@ -133,7 +136,7 @@ const translations = {
         
             <!-- IMAGE -->
             <img
-              src="./src/assets/fpo.jpg" 
+              src={fpo}
               alt="FPO members collaborating with Rupiya.app experts"
               class="w-full md:w-4/5 h-auto mx-auto rounded-lg shadow-lg my-8"
             />
@@ -243,7 +246,7 @@ const translations = {
 
             <!-- IMAGE -->
             <img
-              src="./src/assets/institutions.jpg" 
+              src={institutions}
               alt="Traceable supply chain for institutional buyers"
               class="w-full md:w-4/5 h-auto mx-auto rounded-lg shadow-lg my-8"
             />
@@ -343,7 +346,7 @@ const translations = {
 
             <!-- IMAGE -->
             <img
-              src="./src/assets/investors.jpg" 
+              src={investors}
               alt="Graphs showing investor impact and growth"
               class="w-full md:w-4/5 h-auto mx-auto rounded-lg shadow-lg my-8"
             />
@@ -443,7 +446,7 @@ const translations = {
                     <li class="flex items-start gap-3"><span class="font-bold text-green-600 text-xl">✔</span><span>आप खेती करें, हम वैश्विक कार्बन बाजार को संभालते हैं!</span></li>
                 </ul>
                 <img
-                  src="./src/assets/farmers.jpg" 
+                  src={farmers}
                   alt="FPO सदस्य Rupiya.app विशेषज्ञों के साथ सहयोग कर रहे हैं"
                   class="w-full md:w-4/5 h-auto mx-auto rounded-lg shadow-lg my-8"
                 />
@@ -515,7 +518,7 @@ const translations = {
         
             <!-- IMAGE -->
             <img
-              src="./src/assets/fpo.jpg" 
+              src={fpo}
               alt="FPO सदस्य Rupiya.app विशेषज्ञों के साथ सहयोग कर रहे हैं"
               class="w-full md:w-4/5 h-auto mx-auto rounded-lg shadow-lg my-8"
             />
@@ -625,7 +628,7 @@ const translations = {
 
             <!-- IMAGE -->
             <img
-              src="./src/assets/institutions.jpg" 
+              src={institutions}
               alt="संस्थागत खरीदारों के लिए ट्रैसेबल आपूर्ति श्रृंखला"
               class="w-full md:w-4/5 h-auto mx-auto rounded-lg shadow-lg my-8"
             />
@@ -725,7 +728,7 @@ const translations = {
 
             <!-- IMAGE -->
             <img
-              src="./src/assets/investors.jpg" 
+              src={investors}
               alt="निवेशक के प्रभाव और वृद्धि को दर्शाने वाले ग्राफ़"
               class="w-full md:w-4/5 h-auto mx-auto rounded-lg shadow-lg my-8"
             />
