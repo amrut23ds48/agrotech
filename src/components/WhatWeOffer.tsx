@@ -842,9 +842,11 @@ const WhatWeOffer = () => {
           return (
             <Card
               key={service.id}
-              className="border-border shadow-medium hover:shadow-large transition-all duration-300 cursor-pointer bg-card overflow-hidden group hover:-translate-y-1"
+              className="border-border shadow-medium hover:shadow-large transition-all duration-300 cursor-pointer bg-card overflow-hidden group hover:-translate-y-1 relative"
               onClick={() => setSelectedCard(service.id)}
             >
+              {/* Arrow at upper right corner */}
+              <ArrowLeft className="absolute top-4 right-4 h-6 w-6 text-primary rotate-180 group-hover:translate-x-2 transition-transform z-10" />
               <CardContent className="p-8">
                 <div className="mb-6 p-3 rounded-xl bg-accent w-fit group-hover:bg-primary/10 transition-colors">
                   <service.icon className="h-8 w-8 text-primary" />
