@@ -26,13 +26,39 @@ import product2 from "@/assets/products/BeauvShakti.png";
 import product3 from "@/assets/products/CeralShakti.png";
 import product4 from "@/assets/products/CombishieldShakti.png";
 import product5 from "@/assets/products/EARTHWISE.png";
-
+import product6 from "@/assets/products/FungiShakti.png";
+import product7 from "@/assets/products/GrowShakti.png";
+import product8 from "@/assets/products/GuardShakti.png";
+import product9 from "@/assets/products/GuardShakti Prime.png";
+import product10 from "@/assets/products/LIQUIDEARTHWISE.png";
+import product11 from "@/assets/products/MetaShakti.png";
+import product12 from "@/assets/products/Nitro Shakti.png";
+import product13 from "@/assets/products/NPK Shakti.png";
+import product14 from "@/assets/products/PAN STROKES ++.png";
+import product15 from "@/assets/products/Petal Shakti Prime.png";
+import product16 from "@/assets/products/Petal shakti.png";
+import product17 from "@/assets/products/Plant shakti Prime.png";
+import product18 from "@/assets/products/Plant Shakti.png";
 const productImages = [
   { src: product1, name: "AgroShakti" },
   { src: product2, name: "BeauvShakti" },
   { src: product3, name: "CeralShakti" },
   { src: product4, name: "CombishieldShakti" },
   { src: product5, name: "EARTHWISE" },
+  { src: product6, name: "fungi shakti" },
+  { src: product7, name: "grow shakti" },
+  { src: product8, name: "guardshakti" },
+  { src: product9, name: "guardshakti prime" },
+  { src: product10, name: "Liquid earthwise" },
+  { src: product11, name: "Meta shakti" },
+  { src: product12, name: "nitro shati" },
+  { src: product13, name: "NPK Shakti" },
+  { src: product14, name: "Pan Strokes ++" },
+  { src: product15, name: "Petal Shakti Prime" },
+  { src: product16, name: "Petal Shakti" },
+  { src: product17, name: "plant shakti prime" },
+  { src: product17, name: "plant shakti" },
+  
 ];
 // --- DATA FOR SERVICES (ICONS) ---
 // We keep icons and IDs separate from translatable text.
