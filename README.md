@@ -1,5 +1,11 @@
 
 
+
+<!-- Demo Video -->
+[![Demo Video](https://img.youtube.com/vi/EsNJRTU6ubw/0.jpg)](https://www.youtube.com/watch?v=EsNJRTU6ubw)
+
+**[🌐 View Live Deployment](https://agrotech-nu-beryl.vercel.app/)**
+
 ## 🚀 How to Run This Project (Vite + React)
 
 ```bash
